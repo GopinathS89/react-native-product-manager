@@ -8,6 +8,7 @@ import {productWatchers} from "./sagas/product";
 
 const sagaMiddleware = createSagaMiddleware();
 
+
 const store = createStore(
   rootReducer,
   {
