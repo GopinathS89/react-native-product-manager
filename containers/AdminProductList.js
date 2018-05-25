@@ -26,7 +26,7 @@ class AdminProductList extends Component {
   deleteClick = id => {
     Alert.alert(
         'Delete',
-        'Are you sure you want to delete this product?',
+        'Are you sure want to delete this product?',
         [
           {text: 'NO', onPress: () => {style: 'cancel'}},
           {text: 'YES', onPress: () => this._deleteItem(id)},
