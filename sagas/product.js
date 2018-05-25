@@ -55,7 +55,7 @@ function* deleteProduct(action) {
         yield put(actionCreators.deleteProductSuccess(action.id))
         yield vibrate()
     } catch (error) {
-        yield put(actionCreators.deleteProductSuccess(error))
+        yield put(actionCreators.deleteProductFailure(error))
     }
 }
 
