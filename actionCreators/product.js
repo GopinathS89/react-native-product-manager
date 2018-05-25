@@ -99,10 +99,10 @@ export function deleteProduct(id) {
     }
 }
 
-export function deleteProductSuccess(product) {
+export function deleteProductSuccess(id) {
     return {
         type: DELETE_PRODUCT_SUCCESS,
-        product
+        id
     }
 }
 
