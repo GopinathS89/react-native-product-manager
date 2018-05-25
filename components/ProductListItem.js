@@ -50,7 +50,7 @@ class ProductListItem extends React.PureComponent {
               </Text>
 
               <Ionicons
-                name={isDelete ? wish ?"ios-close-circle": "ios-close-circle-outline": wish ? "md-heart" : "md-heart-outline"}
+                name={isDelete ? "ios-close-circle" : wish ? "md-heart" : "md-heart-outline"}
                 size={32}
                 color={isDelete ?"#FF2400":"#00ff80"}
                 style={{ marginRight: 10 }}
